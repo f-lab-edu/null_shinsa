@@ -15,6 +15,7 @@
 - swagger
 - Jenkins
 - nginx
+- 인메모리 로컬 캐시
 
 추가 스택
 - redis
