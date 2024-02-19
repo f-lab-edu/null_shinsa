@@ -2,22 +2,29 @@
 
 ## 개요
 
-- 본 프로젝트는 모의 주식투자 서비스를 제공합니다.
-- 코스콤 API를 사용하여, 실제 주식 시세만 가져오며, 주식을 사고 파는 경험을 할 수 있게 해줍니다.
+- 해당 프로젝트는 무신사,29CM 같은 패션 이커머스 기반 프로젝트 입니다.
+- 주문이나 재고와 같은 고민스럽고 실제 비즈니스 로직도 복잡하게 적용되야 하는 기능들을 좋은 방식으로 구현해보는 경험을 하고자 진행하게 되었습니다.
 
 ## 기술 스택
 
+기본 스택
 - JDK 17
-- Spring Boot, Spring Batch, JPA
-- Elastic Cache
-- AWS SQS 
+- Spring Boot, JPA
 - RDS (Mysql)
 - gradle
-- intelliJ
+- swagger
+- Jenkins
+- nginx
+
+추가 스택
+- redis
+- kafka
+- docker
+- ..
 
 ## 예상 아키텍처
 
-![image](https://github.com/f-lab-edu/inversting/assets/24979159/8873e02f-4853-4ce0-975b-69c732652d82)
+
 
 ## ERD 
 
