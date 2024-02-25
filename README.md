@@ -23,7 +23,9 @@
 - ..
 
 ## 예상 아키텍처
-![poster](./92cm 구조도 (1).jpg)
+<p align="center">
+ <img src = "./92cm 구조도 (1).jpg">
+</p>
 
 
 ## ERD 
