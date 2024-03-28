@@ -1,0 +1,24 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 200MB
+  datasource:
+    url: jdbc:mysql://localhost:3306/null_shinsa_member?allowPublicKeyRetrieval=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&cacheDefaultTimezone=false
+    username: root
+    password: alsdud6038
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+        enable_lazy_load_no_trans: false
+        default_batch_fetch_size: 1000
